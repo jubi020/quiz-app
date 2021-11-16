@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap');
+
+
+:root{
+background-color: black;
+width: 100vw;
+font-family: nova cut;
+}
+
+*{
+	box-sizing: border-box;
+}
+h1{
+	text-align: center;
+	font-size: 300%;
+	color: green;
+}
+/*a{
+	padding-top: 15px;
+	display: block;
+	background-color: green;
+	margin-bottom: 10px;
+	margin-left: 30%;
+
+}*/
+
+/*#btn1{
+	
+}*/
+.container{
+	height: 96vh;
+	width: 96vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-column{
+	/*height: 96vh;*/
+	border: black solid 2px;
+	display: flex;
+	flex-direction: column;  /*for stackig items on top of each other*/
+	/*justify-content: center;*/ 
+	align-items: center; /*to move the flex items to center*/
+	/*background-color: lightblue;*/
+	/*width: 100%;*/
+}
+/*.flex-column>a{
+	font-size: 1.2rem;
+	margin:0.6rem 0;
+	background-color: palegreen;
+	width:45%;
+	height:50px;
+	text-align: center;
+	text-decoration: none; /*will remove the underline from <a> tag
+	padding: 0.3rem;
+	border-radius: 0.8rem;
+}
+*/
+.btn{
+	font-size: 1.2rem;
+	color: blueviolet;
+	margin:0.6rem 0;
+	width:35%;
+	height:50px;
+	border-radius: 0.8rem;
+	background-color: paleturquoise;
+	text-align: center;
+	text-decoration: none; /*will remove the underline from <a> tag*/
+	padding: 0.3rem;
+	border-radius: 0.8rem;
+}
+
+.btn:hover,.btn:focus{
+	background-color: lightsalmon;
+	cursor: pointer;
+	box-shadow: antiquewhite;
+	transform: scale(1.04);
+    transform: transform 50ms;
+}
+
+/*End Page CSS*/
+.end-form-container{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 30rem;
+}
+
+input{
+	margin-bottom: 1rem;
+	width: 10rem;
+	padding: 0.4rem;
+	font-size: 1.3rem;
+	border: none;
+	box-shadow: 0 0.1rem 0.8rem 0 rgba(86,185,235,0.5);
+}
+
+input::placeholder{
+	color: #aaa;
+}
+
+#username{
+	margin-bottom: 1.5rem;
+	width: 90%;
+	outline: none;
+}
+
+#end-text{
+	font-size: 1.4rem;
+	color: #fff;
+	text-align: center;
+}
+
+#saveScoreBtn{
+	border: none;
+}
+
