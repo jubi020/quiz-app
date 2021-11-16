@@ -1,2 +1,2 @@
 # quiz-app
-A simple quiz app made using VanillaJS.
+A simple quiz app made using HTML, CSS, VanillaJS.
